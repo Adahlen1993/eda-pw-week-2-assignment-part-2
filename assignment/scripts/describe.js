@@ -137,6 +137,9 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - the variables for colorOne and colorTwo are set incorrectly. colorOne should be set to blue and colorTwo should be set to Red
+// also the code in the conditional should add colorTwo = 'purple'
+
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -150,6 +153,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - in the conditional || designates "or" but the directions say "and" so it should be changed to if (temp > 39 && time >= 4)
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -162,6 +167,9 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// FIX - the directions state that age should be greater than or equal to min age so the conditional should be set to if(age >= minAge) to reflect that.
+// also it is currently set to console log 'no entry' if true so the code for the if and else statement need to be flipped.
 
 if(minAge <= age) {
   console.log('no entry');
