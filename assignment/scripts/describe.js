@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We created a variable called name and set it to 'Dane'
+// We than create a conditional that says if name equals Mary console log 'Hi, Mary!'
+// Otherwise we console log 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// created 2 variables named secret and one named code set to 123
+// we than made a conditional that states if code is exactly equal to 123 
+// than secret is set to 'super' and the value of code is multiplied by 2
+// we made another conditional that states if code is greater than 250
+// secret is set to 'duper'. We than console log secret.
 
 //CODE
 /*
@@ -70,10 +71,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//  we create a boolean variable named isStudent and set it to true.
+//  we than create 2 other variables called age set to 34 and zip set to 55407
+//  we than create a conditional that states if isStuden is true and zip is greater than 88000 we console log `You're a student on the West Coast!`
+//  we add a condition that states if isStudent is false or age is less than 30 we console log 'What are your hobbies?'
+//  we add another condition that states if isStudent is true we console log 'Welcome to Prime!'
+//  we add a final condition if all of the prior conditions are not true we console log 'How about the weather?'
 
 //CODE
 /*
