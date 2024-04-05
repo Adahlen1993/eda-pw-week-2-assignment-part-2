@@ -29,7 +29,7 @@ if (number >= 2) {
 // We created a variable called name and set it to 'Dane'
 // We than create a conditional that says if name equals Mary console log 'Hi, Mary!'
 // Otherwise we console log 'How do you do?'
-//
+// the name variable is not 'Mary' so we console log 'How do you do?'
 
 //CODE
 /*
@@ -50,6 +50,8 @@ if (name === 'Mary') {
 // than secret is set to 'super' and the value of code is multiplied by 2
 // we made another conditional that states if code is greater than 250
 // secret is set to 'duper'. We than console log secret.
+//  the code is equal to 123 so we set secret = 'super' we than multiply 123 by 2
+// which is 246 and not greater than 250. console.log secret would return 'super'
 
 //CODE
 /*
@@ -77,6 +79,7 @@ console.log(secret)
 //  we add a condition that states if isStudent is false or age is less than 30 we console log 'What are your hobbies?'
 //  we add another condition that states if isStudent is true we console log 'Welcome to Prime!'
 //  we add a final condition if all of the prior conditions are not true we console log 'How about the weather?'
+// console.log would return 'Welcome to Prime!
 
 //CODE
 /*
